@@ -68,6 +68,9 @@ return {
           ['ui-select'] = {
             require('telescope.themes').get_dropdown(),
           },
+          smart_open = {
+            match_algorithm = 'fzy',
+          },
         },
       }
 
