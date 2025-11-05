@@ -79,4 +79,7 @@ vim.o.tabstop = 2
 vim.o.shiftwidth = 2
 vim.o.softtabstop = 2
 
+-- don't show message when running `nvim`
+vim.opt.shortmess:append 'I'
+
 -- vim: ts=2 sts=2 sw=2 et
