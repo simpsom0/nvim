@@ -71,6 +71,9 @@ vim.o.scrolloff = 15
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- fixes issue where ftplugin/markdown.vim overrides tabs in .md files to be 4, not 2 as set below
+vim.g.markdown_recommended_style = 0
+
 -- tab settings
 vim.o.smarttab = true
 vim.o.expandtab = true
